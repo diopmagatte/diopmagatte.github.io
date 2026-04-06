@@ -22,18 +22,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # Required for Hugo themes as submodules
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
-          extended: true  # Required for Toha theme (uses SCSS)
+          extended: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
+      - name: Install npm dependencies
+        run: npm install
 
       - name: Build with Hugo
         env:
