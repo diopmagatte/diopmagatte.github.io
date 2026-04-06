@@ -1,0 +1,12 @@
+name: "Magatte DIOP"
+nickname: "Magatte"
+greeting: "Hi, I am"
+image: "images/author/magatte.png"
+contactInfo:
+  #email: "magatte@example.com"
+  github: diopmagatte
+  linkedin: diopmagatte
+summary:
+  - I am a Security Analyst
+  - I hold a master's degree in cybersecurity
+  - I have experience with Active Directory, Microsoft 365, Linux/Windows administration and Fortigate firewalls

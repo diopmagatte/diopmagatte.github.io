@@ -1,0 +1,50 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  summary: Selected cybersecurity labs and projects (portfolio currently being expanded)
+
+
+buttons:
+- name: All
+  filter: "all"
+
+- name: Security
+  filter: "security"
+
+- name: Detection
+  filter: "detection"
+
+- name: Vulnerability Mgmt
+  filter: "vulnerability"
+
+- name: Identity & Access
+  filter: "iam"
+
+
+projects:
+
+
+- name: Adversary Emulation based on APT41 using MITRE Caldera and Velociraptor
+  role: Cybersecurity Graduate Student
+  repo: https://github.com/ettagam/PR2---Purple-Teaming
+  timeline: "2025"
+  summary: Emulated **APT41 adversary techniques** using **MITRE Caldera** and analyzed endpoint activity with **Velociraptor** to validate detection capabilities aligned with the **MITRE ATT&CK framework** in a controlled lab environment.
+  tags: ["security", "detection"]
+
+
+- name: Vulnerability Management Research Project
+  role: Graduate Student Researcher
+  timeline: "2024"
+  summary: Conducted a research project on **Information Security Risks** focusing on **internal vulnerability management**. Installed and configured **Greenbone/OpenVAS** for vulnerability scanning, analyzed system weaknesses, and documented findings in a detailed report supporting remediation prioritization. [View report](/files/memoire-vulnerability-report.pdf)
+  tags: ["security", "vulnerability"]
+
+
+- name: Security Monitoring and Log Analysis with Splunk
+  role: Cybersecurity Graduate Student
+  timeline: "2024"
+  summary: Investigated security events and analyzed system logs using **Splunk dashboards** and search queries to detect suspicious activities in simulated environments.
+  tags: ["security", "detection"]
+

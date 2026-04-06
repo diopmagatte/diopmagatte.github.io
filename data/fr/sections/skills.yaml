@@ -1,0 +1,66 @@
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+- name: Opérations SOC
+  summary: "Maîtrise des opérations SOC, analyse de logs, triage des alertes et gestion d'incidents via des outils SIEM."
+  skills:
+  - name: Splunk
+    percentage: 90
+    logo: https://cdn.simpleicons.org/splunk
+  - name: Microsoft Sentinel
+    percentage: 85
+    logo: https://cdn.simpleicons.org/microsoftazure
+  - name: IBM QRadar
+    percentage: 80
+    logo: https://cdn.simpleicons.org/ibm
+  - name: ELK Stack
+    percentage: 75
+    logo: https://cdn.simpleicons.org/elasticstack
+
+- name: Sécurité Réseau
+  summary: "Compréhension approfondie des protocoles réseau, gestion des pare-feux, IDS/IPS et analyse du trafic."
+  skills:
+  - name: Wireshark
+    percentage: 92
+    logo: https://cdn.simpleicons.org/wireshark
+  - name: Nmap
+    percentage: 90
+    logo: https://cdn.simpleicons.org/nmap
+  - name: Snort / Suricata
+    percentage: 80
+    logo: https://cdn.simpleicons.org/suricata
+  - name: pfSense
+    percentage: 78
+    logo: https://cdn.simpleicons.org/pfsense
+
+- name: Threat Intelligence
+  summary: "Expérience avec MITRE ATT&CK, analyse des IOC, threat hunting et plateformes CTI."
+  skills:
+  - name: MITRE ATT&CK
+    percentage: 88
+  - name: OSINT
+    percentage: 85
+  - name: MISP
+    percentage: 75
+  - name: VirusTotal
+    percentage: 90
+
+- name: Scripting & Automatisation
+  summary: "Automatisation des tâches de sécurité et création de scripts de détection."
+  skills:
+  - name: Python
+    percentage: 80
+    logo: https://cdn.simpleicons.org/python
+  - name: PowerShell
+    percentage: 85
+    logo: https://cdn.simpleicons.org/powershell
+  - name: Bash
+    percentage: 78
+    logo: https://cdn.simpleicons.org/gnubash
+  - name: KQL
+    percentage: 75

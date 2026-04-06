@@ -1,0 +1,59 @@
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+buttons:
+- name: Tous
+  filter: "all"
+- name: Python
+  filter: "python"
+- name: Sécurité
+  filter: "security"
+- name: Automatisation
+  filter: "automation"
+
+projects:
+- name: Automatisation du tuning d'alertes SIEM
+  role: Développeur & Analyste
+  timeline: "Jan 2023 - Mar 2023"
+  repo: https://github.com/diopmagatte/siem-tuning
+  summary: Framework d'automatisation Python pour analyser la fatigue d'alertes Splunk et réduire les faux positifs de 40% en production.
+  tags: ["python", "security", "automation"]
+
+- name: Tableau de bord Threat Intelligence
+  role: Développeur principal
+  timeline: "Jul 2022 - Sep 2022"
+  repo: https://github.com/diopmagatte/ti-dashboard
+  summary: Tableau de bord interactif agrégeant des IOC depuis MISP, AlienVault OTX et VirusTotal. Visualise les tendances des acteurs de menace.
+  tags: ["python", "security"]
+
+- name: Modèle ML de détection de phishing
+  role: Développeur solo
+  timeline: "Mar 2022 - Jun 2022"
+  repo: https://github.com/diopmagatte/phishing-ml
+  summary: Modèle de machine learning entraîné sur 50 000+ URLs avec 94% de précision. Intégré dans une extension navigateur pour analyse en temps réel.
+  tags: ["python", "security"]
+
+- name: Home Lab - Environnement Blue Team
+  role: Architecte & Administrateur
+  timeline: "En cours"
+  repo: https://github.com/diopmagatte/homelab
+  summary: Lab virtuel simulant un SOC d'entreprise avec pfSense, Elastic SIEM, Wazuh IDS et VMs volontairement vulnérables.
+  tags: ["security"]
+
+- name: Bibliothèque de playbooks IR
+  role: Auteur
+  timeline: "2021 - En cours"
+  repo: https://github.com/diopmagatte/ir-playbooks
+  summary: Collection open-source de playbooks de réponse aux incidents couvrant ransomware, BEC, exfiltration de données et menaces internes.
+  tags: ["security", "automation"]
+
+- name: Système de suivi et d'alerte CVE
+  role: Développeur
+  timeline: "Oct 2022 - Déc 2022"
+  repo: https://github.com/diopmagatte/cve-tracker
+  summary: Outil de surveillance CVE automatisé qui récupère les vulnérabilités depuis l'API NVD et envoie des alertes via Slack/email.
+  tags: ["python", "security", "automation"]

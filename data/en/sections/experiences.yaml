@@ -1,0 +1,72 @@
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: Intact Insurance
+    url: https://www.intact.ca
+    location: Montreal, QC, Canada
+    overview: Leading provider of property and casualty insurance in Canada
+
+  positions:
+    - designation: UNIX Technical Advisor
+      start: September 2025
+      end: December 2025
+      responsibilities:
+        - Administered centralized identity and access services within a Linux enterprise environment
+        - Implemented and maintained access control policies following least-privilege principles
+        - Automated identity and access management tasks to improve operational efficiency
+        - Contributed to strengthening access governance across Linux-based systems
+
+
+- company:
+    name: Compagnie Financière Africaine (COFINA)
+    url: https://www.groupecofina.com
+    location: Dakar, Senegal
+    overview: Financial services institution operating across multiple African countries
+
+  positions:
+    - designation: Network and Systems Support Assistant
+      start: April 2022
+      end: January 2023
+      responsibilities:
+        - Provided Level 1 and Level 2 technical support to internal users
+        - Supported administration of systems, user accounts, and network services
+        - Assisted in maintaining endpoint protection and security controls
+        - Participated in monitoring system operations and troubleshooting incidents
+        - Contributed to technical documentation and support procedures
+
+- company:
+    name: Orange Business Services
+    url: https://www.orangebusiness.sn
+    location: Dakar, Senegal
+    overview: Global provider of telecommunications and IT services for enterprises
+
+  positions:
+    - designation: Cybersecurity Intern
+      start: October 2021
+      end: December 2021
+      responsibilities:
+        - Assisted in configuring network security equipment and access control mechanisms
+        - Contributed to the implementation of network security measures in enterprise environments
+        - Supported deployment of privileged access management controls to secure administrative access to critical systems
+
+- company:
+    name: Université de Sherbrooke
+    location: Sherbrooke, QC, Canada
+    overview: Master’s program in Computer Science – Cybersecurity specialization
+
+  positions:
+    - designation: Cybersecurity Graduate Student
+      start: 2024
+      end: 2026
+      responsibilities:
+        - Performed vulnerability assessment and security monitoring in laboratory environments
+        - Simulated adversary behaviors using MITRE ATT&CK–aligned scenarios
+        - Conducted log analysis and endpoint activity investigations
+        - Worked with security tools for threat detection and incident analysis
+        - Assisted in grading and reviewing coursework, ensuring accuracy and consistency

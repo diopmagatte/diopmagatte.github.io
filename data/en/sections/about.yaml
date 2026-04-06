@@ -1,0 +1,66 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Cybersecurity Analyst Graduate Student
+#company:
+#  name: CyberShield Inc.
+#  url: "https://example.com"
+summary: 'Cybersecurity **graduate student** at Université de Sherbrooke with **2 years of IT experience** and hands-on experience in **security monitoring**, **vulnerability assessment**, and **Windows/Linux system administration**. <br>Currently seeking a **cybersecurity / IT** opportunity.'
+
+socialLinks:
+#- name: Email
+#  icon: "fas fa-envelope"
+#  url: "mailto:magatte@example.com"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/diopmagatte"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/magatte-diop-cyber/"
+
+#resourceLinks:
+#- title: "My Resume"
+#  url: "files/resume.pdf"
+
+badges:
+#- type: certification
+#  name: CompTIA Security+
+#  url: "https://www.comptia.org/certifications/security"
+#  badge: "https://images.credly.com/size/680x680/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png"
+
+
+
+- type: soft-skill-indicator
+  name: Analytical thinking
+  percentage: 80
+  color: blue
+
+- type: soft-skill-indicator
+  name: Problem solving
+  percentage: 75
+  color: orange
+
+- type: soft-skill-indicator
+  name: Attention to detail
+  percentage: 85
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Communication
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Adaptability
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Critical Thinking
+  percentage: 75
+  color: green

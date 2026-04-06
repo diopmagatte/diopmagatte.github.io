@@ -1,0 +1,56 @@
+section:
+  name: Certifications
+  id: accomplishments
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+items:
+- name: CompTIA Security+
+  organization:
+    name: CompTIA
+    url: https://www.comptia.org
+  courseLink: https://www.comptia.org/certifications/security
+  date: "2020"
+
+- name: Certified Ethical Hacker (CEH)
+  organization:
+    name: EC-Council
+    url: https://www.eccouncil.org
+  courseLink: https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/
+  date: "2021"
+
+- name: CompTIA CySA+
+  organization:
+    name: CompTIA
+    url: https://www.comptia.org
+  courseLink: https://www.comptia.org/certifications/cybersecurity-analyst
+  date: "2021"
+
+- name: SC-200 Analyste Opérations de Sécurité Microsoft
+  organization:
+    name: Microsoft
+    url: https://microsoft.com
+  courseLink: https://learn.microsoft.com/en-us/certifications/security-operations-analyst/
+  date: "2022"
+
+- name: Splunk Core Certified User
+  organization:
+    name: Splunk
+    url: https://www.splunk.com
+  courseLink: https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-user.html
+  date: "2022"
+
+- name: Blue Team Junior Analyst
+  organization:
+    name: Security Blue Team
+    url: https://securityblue.team
+  courseLink: https://securityblue.team/courses/btja/
+  date: "2021"
+
+- name: Certificat professionnel en cybersécurité Google
+  organization:
+    name: Google / Coursera
+    url: https://grow.google/certificates/cybersecurity/
+  courseLink: https://grow.google/certificates/cybersecurity/
+  date: "2023"

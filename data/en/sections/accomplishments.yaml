@@ -1,0 +1,37 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: AWS Academy Graduate - Cloud Foundations - Training Badge
+  timeline: "November 15, 2022"
+  organization:
+    name: Amazon Web Services Training and Certification
+    url: https://aws.amazon.com
+  courseOverview: Completed foundational cloud training covering compute, storage, networking, security and hands-on labs in AWS.
+  certificateURL: "https://www.credly.com/badges/91f5600c-046c-449e-a56f-3fd82e157a9a"
+
+- name: AWS Academy Graduate - Cloud Architecting - Training Badge
+  timeline: "February 14, 2023"
+  organization:
+    name: Amazon Web Services Training and Certification
+    url: https://aws.amazon.com
+  courseOverview: Completed architecting training including design, deployment, and management of scalable cloud solutions on AWS.
+  certificateURL: "https://www.credly.com/badges/31698540-b923-42b4-85ce-4a986d1d3ef8"
+
+- name: CCNP Core Networking - Badge
+  timeline: "November 28, 2022"
+  organization:
+    name: CISCO
+    url: https://www.cisco.com
+  courseOverview: The holder of this credential has a broad understanding of enterprise network architectures and the implementation skills to enable switching, routing, and wireless devices using security best practices and technologies that support-software defined programmable networks. Earner has completed 40+ hands-on labs using Cisco networking hardware.
+  certificateURL: "https://www.credly.com/badges/65b545b0-8a2d-44e1-b720-af49b181ffa9"
+

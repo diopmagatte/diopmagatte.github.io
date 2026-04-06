@@ -1,0 +1,148 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+buttons:
+- name: All
+  filter: "all"
+
+- name: Security Tools
+  filter: "security"
+
+- name: Systems & Identity
+  filter: "systems"
+
+- name: Network Security
+  filter: "network"
+
+- name: Vulnerability Mgmt
+  filter: "vulnerability"
+
+- name: Security Concepts
+  filter: "concepts"
+
+
+skills:
+
+# ================= SECURITY TOOLS =================
+
+- name: Splunk
+  logo: /images/sections/skills/splunk.png
+  summary: Security monitoring, log analysis, and investigation of suspicious activity using **SIEM dashboards** and **search queries**
+  categories: ["security"]
+
+- name: Velociraptor
+  logo: /images/sections/skills/velociraptor.png
+  summary: Endpoint artifact collection, host investigation and **threat hunting** in **DFIR environments**
+  categories: ["security"]
+
+- name: MITRE Caldera
+  #logo: /images/sections/skills/caldera.svg
+  summary: Adversary emulation aligned with **MITRE ATT&CK** techniques for detection validation and security testing
+  categories: ["security"]
+
+- name: Kali Linux Tools
+  logo: /images/sections/skills/kali.png
+  summary: Hands-on experience with **Wireshark**, **Burp Suite**, **Nmap**, **Metasploit** and traffic analysis tools for security testing and vulnerability discovery
+  categories: ["security"]
+
+- name: Zabbix
+  logo: /images/sections/skills/zabbix.png
+  summary: Infrastructure monitoring and alerting configuration to support **system availability** and operational visibility
+  categories: ["security"]
+
+
+# ================= VULNERABILITY MANAGEMENT =================
+
+- name: Nessus
+  #logo: /images/sections/skills/nessus.png
+  summary: Vulnerability scanning, risk prioritization and remediation tracking in **lab-based security assessments**
+  categories: ["vulnerability"]
+
+- name: OpenVAS
+  logo: /images/sections/skills/openvas.png
+  summary: Vulnerability assessment and reporting
+  categories: ["vulnerability"]
+
+- name: Risk Analysis Basics
+  logo: /images/sections/skills/risk.png
+  summary: Supporting vulnerability prioritization based on **risk level**, **impact** and remediation urgency
+  categories: ["vulnerability"]
+
+
+# ================= SYSTEMS & IDENTITY =================
+
+- name: Active Directory
+  logo: /images/sections/skills/ad.png
+  summary: User lifecycle management and **identity-based access control** administration
+  categories: ["systems"]
+
+- name: Group Policy (GPO)
+
+  summary: Security policy configuration and centralized endpoint configuration enforcement using **Group Policy**
+  categories: ["systems"]
+
+- name: Microsoft 365
+  logo: /images/sections/skills/m365.png
+  summary: User provisioning and access configuration in **Microsoft 365** including administration of **Exchange Online**, **mail security settings** and **Microsoft Purview** compliance features
+  categories: ["systems"]
+
+- name: Windows Server
+  logo: /images/sections/skills/windows.png
+  summary: Server configuration and administration including **DNS**, **DHCP** and **IIS** services in enterprise environments
+  categories: ["systems"]
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: System administration and shell usage with Ubuntu, RHEL in enterprise environments
+  categories: ["systems"]
+
+
+# ================= NETWORK SECURITY =================
+
+- name: Fortigate Firewall
+  #logo: /images/sections/skills/fortigate.jpeg
+  summary: Firewall policy configuration, **VPN deployment** and network traffic control implementation
+  categories: ["network"]
+
+- name: VPN Configuration
+  logo: /images/sections/skills/vpn.png
+  summary: Secure remote connectivity setup using **encrypted tunneling solutions**
+  categories: ["network"]
+
+- name: VLAN
+  logo: /images/sections/skills/vlan.png
+  summary: Network segmentation configuration supporting **traffic isolation** and security zoning
+  categories: ["network"]
+
+- name: TCP/IP
+
+  summary: Network communication fundamentals
+  categories: ["network"]
+
+
+# ================= SECURITY CONCEPTS =================
+
+- name: MITRE ATT&CK Framework
+  logo: /images/sections/skills/mitre.png
+  summary: Mapping adversary techniques to **detection strategies** and attack simulation scenarios
+  categories: ["concepts"]
+
+- name: Log Analysis
+  logo: /images/sections/skills/log.png
+  summary: Security event investigation and monitoring
+  categories: ["concepts"]
+
+- name: Incident Detection
+  logo: /images/sections/skills/incident.png
+  summary: Identifying suspicious behaviour and alerts
+  categories: ["concepts"]
+
+- name: Access Control
+  logo: /images/sections/skills/access.png
+  summary: Implementation of **least-privilege principles** and identity-based access governance concepts
+  categories: ["concepts"]
