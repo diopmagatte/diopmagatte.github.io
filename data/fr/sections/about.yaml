@@ -6,11 +6,11 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-designation: Étudiant en cybersécurité - Analyste
+designation: Analyste en Sécurité
 #company:
 #  name: CyberShield Inc.
 #  url: "https://example.com"
-summary: 'Étudiant à la **maîtrise en cybersécurité** à l''Université de Sherbrooke avec **2 ans d''expérience en TI** et une expérience pratique en **surveillance de la sécurité**, **évaluation des vulnérabilités** et **administration des systèmes Windows/Linux**. <br>Je suis actuellement à la recherche d''une opportunité en **cybersécurité / TI**.'
+summary: 'Titulaire d''une **maîtrise en cybersécurité** à l''Université de Sherbrooke avec **2 ans d''expérience en TI** et une expérience pratique en **surveillance de la sécurité**, **évaluation des vulnérabilités** et **administration des systèmes Windows/Linux**. <br>Je suis actuellement à la recherche d''une opportunité en **cybersécurité / TI**.'
 
 socialLinks:
 #- name: Email
