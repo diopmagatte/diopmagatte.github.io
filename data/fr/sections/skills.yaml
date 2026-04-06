@@ -4,63 +4,140 @@ section:
   enable: true
   weight: 2
   showOnNavbar: true
+  filter: true
+
+buttons:
+- name: Tous
+  filter: "all"
+
+- name: Outils de sécurité
+  filter: "security"
+
+- name: Systèmes & Identité
+  filter: "systems"
+
+- name: Sécurité réseau
+  filter: "network"
+
+- name: Gestion des vulnérabilités
+  filter: "vulnerability"
+
+- name: Concepts de sécurité
+  filter: "concepts"
+
 
 skills:
-- name: Opérations SOC
-  summary: "Maîtrise des opérations SOC, analyse de logs, triage des alertes et gestion d'incidents via des outils SIEM."
-  skills:
-  - name: Splunk
-    percentage: 90
-    logo: https://cdn.simpleicons.org/splunk
-  - name: Microsoft Sentinel
-    percentage: 85
-    logo: https://cdn.simpleicons.org/microsoftazure
-  - name: IBM QRadar
-    percentage: 80
-    logo: https://cdn.simpleicons.org/ibm
-  - name: ELK Stack
-    percentage: 75
-    logo: https://cdn.simpleicons.org/elasticstack
 
-- name: Sécurité Réseau
-  summary: "Compréhension approfondie des protocoles réseau, gestion des pare-feux, IDS/IPS et analyse du trafic."
-  skills:
-  - name: Wireshark
-    percentage: 92
-    logo: https://cdn.simpleicons.org/wireshark
-  - name: Nmap
-    percentage: 90
-    logo: https://cdn.simpleicons.org/nmap
-  - name: Snort / Suricata
-    percentage: 80
-    logo: https://cdn.simpleicons.org/suricata
-  - name: pfSense
-    percentage: 78
-    logo: https://cdn.simpleicons.org/pfsense
+# ================= OUTILS DE SÉCURITÉ =================
 
-- name: Threat Intelligence
-  summary: "Expérience avec MITRE ATT&CK, analyse des IOC, threat hunting et plateformes CTI."
-  skills:
-  - name: MITRE ATT&CK
-    percentage: 88
-  - name: OSINT
-    percentage: 85
-  - name: MISP
-    percentage: 75
-  - name: VirusTotal
-    percentage: 90
+- name: Splunk
+  logo: /images/sections/skills/splunk.png
+  summary: Surveillance de la sécurité, analyse de journaux et investigation d'activités suspectes via des **tableaux de bord SIEM** et des **requêtes de recherche**
+  categories: ["security"]
 
-- name: Scripting & Automatisation
-  summary: "Automatisation des tâches de sécurité et création de scripts de détection."
-  skills:
-  - name: Python
-    percentage: 80
-    logo: https://cdn.simpleicons.org/python
-  - name: PowerShell
-    percentage: 85
-    logo: https://cdn.simpleicons.org/powershell
-  - name: Bash
-    percentage: 78
-    logo: https://cdn.simpleicons.org/gnubash
-  - name: KQL
-    percentage: 75
+- name: Velociraptor
+  logo: /images/sections/skills/velociraptor.png
+  summary: Collecte d'artefacts sur les points de terminaison, investigation et **threat hunting** dans des environnements **DFIR**
+  categories: ["security"]
+
+- name: MITRE Caldera
+  summary: Émulation d'adversaires alignée sur les techniques **MITRE ATT&CK** pour la validation des capacités de détection et les tests de sécurité
+  categories: ["security"]
+
+- name: Kali Linux Tools
+  logo: /images/sections/skills/kali.png
+  summary: Expérience pratique avec **Wireshark**, **Burp Suite**, **Nmap**, **Metasploit** et des outils d'analyse réseau pour les tests de sécurité et la découverte de vulnérabilités
+  categories: ["security"]
+
+- name: Zabbix
+  logo: /images/sections/skills/zabbix.png
+  summary: Configuration de la surveillance d'infrastructure et des alertes pour assurer la **disponibilité des systèmes** et la visibilité opérationnelle
+  categories: ["security"]
+
+
+# ================= GESTION DES VULNÉRABILITÉS =================
+
+- name: Nessus
+  summary: Analyse des vulnérabilités, priorisation des risques et suivi des remédiations dans des **évaluations de sécurité en laboratoire**
+  categories: ["vulnerability"]
+
+- name: OpenVAS
+  logo: /images/sections/skills/openvas.png
+  summary: Évaluation des vulnérabilités et génération de rapports de sécurité
+  categories: ["vulnerability"]
+
+- name: Analyse des risques
+  logo: /images/sections/skills/risk.png
+  summary: Priorisation des vulnérabilités selon le **niveau de risque**, l'**impact** et l'urgence de remédiation
+  categories: ["vulnerability"]
+
+
+# ================= SYSTÈMES & IDENTITÉ =================
+
+- name: Active Directory
+  logo: /images/sections/skills/ad.png
+  summary: Gestion du cycle de vie des utilisateurs et administration du **contrôle d'accès basé sur l'identité**
+  categories: ["systems"]
+
+- name: Group Policy (GPO)
+  summary: Configuration des politiques de sécurité et application centralisée des configurations des points de terminaison via la **stratégie de groupe**
+  categories: ["systems"]
+
+- name: Microsoft 365
+  logo: /images/sections/skills/m365.png
+  summary: Provisionnement des utilisateurs et configuration des accès dans **Microsoft 365**, incluant l'administration d'**Exchange Online**, des **paramètres de sécurité des e-mails** et des fonctionnalités de conformité **Microsoft Purview**
+  categories: ["systems"]
+
+- name: Windows Server
+  logo: /images/sections/skills/windows.png
+  summary: Configuration et administration des serveurs incluant les services **DNS**, **DHCP** et **IIS** en environnement d'entreprise
+  categories: ["systems"]
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: Administration système et utilisation du shell avec Ubuntu et RHEL en environnement d'entreprise
+  categories: ["systems"]
+
+
+# ================= SÉCURITÉ RÉSEAU =================
+
+- name: Pare-feu Fortigate
+  summary: Configuration des politiques de pare-feu, déploiement de **VPN** et mise en œuvre du contrôle du trafic réseau
+  categories: ["network"]
+
+- name: Configuration VPN
+  logo: /images/sections/skills/vpn.png
+  summary: Mise en place de connectivité distante sécurisée via des **solutions de tunnelisation chiffrée**
+  categories: ["network"]
+
+- name: VLAN
+  logo: /images/sections/skills/vlan.png
+  summary: Configuration de la segmentation réseau pour l'**isolation du trafic** et le zonage de sécurité
+  categories: ["network"]
+
+- name: TCP/IP
+  summary: Fondamentaux de la communication réseau
+  categories: ["network"]
+
+
+# ================= CONCEPTS DE SÉCURITÉ =================
+
+- name: Framework MITRE ATT&CK
+  logo: /images/sections/skills/mitre.png
+  summary: Correspondance des techniques adversariales avec les **stratégies de détection** et les scénarios de simulation d'attaques
+  categories: ["concepts"]
+
+- name: Analyse de journaux
+  logo: /images/sections/skills/log.png
+  summary: Investigation et surveillance des événements de sécurité
+  categories: ["concepts"]
+
+- name: Détection d'incidents
+  logo: /images/sections/skills/incident.png
+  summary: Identification des comportements suspects et des alertes de sécurité
+  categories: ["concepts"]
+
+- name: Contrôle d'accès
+  logo: /images/sections/skills/access.png
+  summary: Mise en œuvre des **principes du moindre privilège** et concepts de gouvernance des accès basée sur l'identité
+  categories: ["concepts"]

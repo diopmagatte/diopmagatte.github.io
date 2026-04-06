@@ -3,13 +3,10 @@ nickname: "Magatte"
 greeting: "Bonjour, je suis"
 image: "images/author/magatte.png"
 contactInfo:
-  email: "magatte@example.com"
-  phone: "+1 514-555-0123"
+  #email: "magatte@example.com"
   github: diopmagatte
   linkedin: diopmagatte
 summary:
   - Je suis Analyste en Sécurité
-  - Je protège les systèmes contre les cybermenaces
-  - Je suis spécialisé en opérations SOC et threat intelligence
-  - Je suis passionné par les opérations Blue Team
-  - Je suis titulaire de plusieurs certifications reconnues
+  - J'ai une maîtrise en cybersécurité
+  - J'ai de l'expérience avec Active Directory, Microsoft 365, l'administration Linux/Windows et les pare-feux Fortigate

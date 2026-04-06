@@ -6,50 +6,59 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-designation: Analyste en Sécurité
-company:
-  name: CyberShield Inc.
-  url: "https://example.com"
-
-summary: '**Analyste en sécurité** expérimenté avec plus de 5 ans de pratique dans la protection des infrastructures contre les cybermenaces. Spécialisé en **détection des menaces**, **réponse aux incidents**, **évaluation des vulnérabilités** et gestion de **SIEM**. Passionné par les opérations Blue Team et la construction de postures de sécurité robustes.'
+designation: Étudiant en cybersécurité - Analyste
+#company:
+#  name: CyberShield Inc.
+#  url: "https://example.com"
+summary: 'Étudiant à la **maîtrise en cybersécurité** à l''Université de Sherbrooke avec **2 ans d''expérience en TI** et une expérience pratique en **surveillance de la sécurité**, **évaluation des vulnérabilités** et **administration des systèmes Windows/Linux**. <br>Je suis actuellement à la recherche d''une opportunité en **cybersécurité / TI**.'
 
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "mailto:magatte@example.com"
+#- name: Email
+#  icon: "fas fa-envelope"
+#  url: "mailto:magatte@example.com"
 - name: Github
   icon: "fab fa-github"
   url: "https://github.com/diopmagatte"
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "https://linkedin.com/in/diopmagatte"
+  url: "https://www.linkedin.com/in/magatte-diop-cyber/"
 
-resourceLinks:
-- title: "Mon CV"
-  url: "files/resume.pdf"
+#resourceLinks:
+#- title: "Mon CV"
+#  url: "files/resume.pdf"
 
 badges:
-- type: certification
-  name: CompTIA Security+
-  url: "https://www.comptia.org/certifications/security"
-  badge: "https://images.credly.com/size/680x680/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png"
-
-- type: certification
-  name: CEH - Certified Ethical Hacker
-  url: "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/"
-  badge: "https://images.credly.com/size/680x680/images/17e39181-2aaa-4fbd-8f30-6a9f7c083e4d/image.png"
+#- type: certification
+#  name: CompTIA Security+
+#  url: "https://www.comptia.org/certifications/security"
+#  badge: "https://images.credly.com/size/680x680/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png"
 
 - type: soft-skill-indicator
-  name: Analyse des menaces
-  percentage: 95
+  name: Pensée analytique
+  percentage: 80
   color: blue
 
 - type: soft-skill-indicator
-  name: Réponse aux incidents
-  percentage: 90
+  name: Résolution de problèmes
+  percentage: 75
   color: orange
 
 - type: soft-skill-indicator
-  name: Travail en équipe
-  percentage: 88
+  name: Souci du détail
+  percentage: 85
   color: yellow
+
+- type: soft-skill-indicator
+  name: Communication
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Adaptabilité
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Esprit critique
+  percentage: 75
+  color: green

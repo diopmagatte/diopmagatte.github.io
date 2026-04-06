@@ -1,56 +1,31 @@
 section:
-  name: Certifications
+  name: Accomplissements
   id: accomplishments
   enable: true
-  weight: 5
+  weight: 9
   showOnNavbar: true
 
-items:
-- name: CompTIA Security+
+accomplishments:
+- name: AWS Academy Graduate - Cloud Foundations - Badge de formation
+  timeline: "15 novembre 2022"
   organization:
-    name: CompTIA
-    url: https://www.comptia.org
-  courseLink: https://www.comptia.org/certifications/security
-  date: "2020"
+    name: Amazon Web Services Formation et Certification
+    url: https://aws.amazon.com
+  courseOverview: Formation fondamentale sur le cloud couvrant le calcul, le stockage, la mise en réseau, la sécurité et des laboratoires pratiques sur AWS.
+  certificateURL: "https://www.credly.com/badges/91f5600c-046c-449e-a56f-3fd82e157a9a "
 
-- name: Certified Ethical Hacker (CEH)
+- name: AWS Academy Graduate - Cloud Architecting - Badge de formation
+  timeline: "14 février 2023"
   organization:
-    name: EC-Council
-    url: https://www.eccouncil.org
-  courseLink: https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/
-  date: "2021"
+    name: Amazon Web Services Formation et Certification
+    url: https://aws.amazon.com
+  courseOverview: Formation en architecture cloud incluant la conception, le déploiement et la gestion de solutions cloud évolutives sur AWS.
+  certificateURL: "https://www.credly.com/badges/31698540-b923-42b4-85ce-4a986d1d3ef8"
 
-- name: CompTIA CySA+
+- name: CCNP Core Networking - Badge
+  timeline: "28 novembre 2022"
   organization:
-    name: CompTIA
-    url: https://www.comptia.org
-  courseLink: https://www.comptia.org/certifications/cybersecurity-analyst
-  date: "2021"
-
-- name: SC-200 Analyste Opérations de Sécurité Microsoft
-  organization:
-    name: Microsoft
-    url: https://microsoft.com
-  courseLink: https://learn.microsoft.com/en-us/certifications/security-operations-analyst/
-  date: "2022"
-
-- name: Splunk Core Certified User
-  organization:
-    name: Splunk
-    url: https://www.splunk.com
-  courseLink: https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-user.html
-  date: "2022"
-
-- name: Blue Team Junior Analyst
-  organization:
-    name: Security Blue Team
-    url: https://securityblue.team
-  courseLink: https://securityblue.team/courses/btja/
-  date: "2021"
-
-- name: Certificat professionnel en cybersécurité Google
-  organization:
-    name: Google / Coursera
-    url: https://grow.google/certificates/cybersecurity/
-  courseLink: https://grow.google/certificates/cybersecurity/
-  date: "2023"
+    name: CISCO
+    url: https://www.cisco.com
+  courseOverview: Le titulaire de cette certification possède une compréhension approfondie des architectures réseau d'entreprise et les compétences nécessaires pour configurer des équipements de commutation, routage et sans fil en appliquant les meilleures pratiques de sécurité. La formation comprend plus de 40 laboratoires pratiques sur du matériel réseau Cisco.
+  certificateURL: "https://www.credly.com/badges/65b545b0-8a2d-44e1-b720-af49b181ffa9"

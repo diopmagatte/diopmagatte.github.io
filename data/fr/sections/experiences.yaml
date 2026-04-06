@@ -7,46 +7,66 @@ section:
 
 experiences:
 - company:
-    name: CyberShield Inc.
-    url: "https://example.com"
-    location: Montréal, Québec, Canada
-    overview: Entreprise de cybersécurité offrant des services de sécurité gérés à des entreprises du Fortune 500.
+    name: Intact Assurance
+    url: https://www.intact.ca
+    location: Montréal, QC, Canada
+    overview: Principal fournisseur d'assurance de dommages au Canada
+
   positions:
-  - designation: Analyste en sécurité senior
-    start: Jan 2022
-    responsibilities:
-    - Direction d'une équipe de 4 analystes dans un SOC 24/7 surveillant plus de 500 endpoints clients.
-    - Développement et optimisation de règles de corrélation Splunk, réduisant les faux positifs de 35%.
-    - Conduite d'exercices de threat hunting basés sur MITRE ATT&CK, identification de 3 intrusions de niveau APT.
-    - Rédaction de playbooks de réponse aux incidents adoptés à l'échelle de l'organisation.
-    - Encadrement des analystes juniors avec des sessions de formation hebdomadaires.
+    - designation: Conseiller Technique UNIX
+      start: Septembre 2025
+      end: Décembre 2025
+      responsibilities:
+        - Administration des services centralisés d'identité et d'accès dans un environnement Linux d'entreprise
+        - Mise en œuvre et maintenance des politiques de contrôle d'accès selon le principe du moindre privilège
+        - Automatisation des tâches de gestion des identités et des accès pour améliorer l'efficacité opérationnelle
+        - Contribution au renforcement de la gouvernance des accès sur les systèmes Linux
+
 
 - company:
-    name: SecureNet Solutions
-    url: "https://example.com"
-    location: Québec, Québec, Canada
-    overview: Cabinet de conseil en sécurité informatique spécialisé dans les PME à travers le Canada.
+    name: Compagnie Financière Africaine (COFINA)
+    url: https://www.groupecofina.com
+    location: Dakar, Sénégal
+    overview: Institution de services financiers opérant dans plusieurs pays africains
+
   positions:
-  - designation: Analyste en sécurité
-    start: Juin 2020
-    end: Déc 2021
-    responsibilities:
-    - Surveillance et analyse des alertes de sécurité depuis IBM QRadar pour 80+ clients.
-    - Réalisation d'évaluations de vulnérabilités avec Nessus et rédaction de rapports de remédiation.
-    - Réponse et documentation de plus de 200 incidents de sécurité avec rapports post-mortem.
-    - Assistance au déploiement de Microsoft Defender for Endpoint dans les environnements clients.
+    - designation: Assistant Support Réseau et Systèmes
+      start: Avril 2022
+      end: Janvier 2023
+      responsibilities:
+        - Support technique de niveaux 1 et 2 aux utilisateurs internes
+        - Support à l'administration des systèmes, comptes utilisateurs et services réseau
+        - Assistance au maintien de la protection des postes de travail et des contrôles de sécurité
+        - Participation à la surveillance des opérations système et au dépannage des incidents
+        - Contribution à la documentation technique et aux procédures de support
 
 - company:
-    name: InfoSec Corp
-    url: "https://example.com"
-    location: Montréal, Québec, Canada
-    overview: Startup en cybersécurité axée sur les solutions de sécurité cloud-native.
+    name: Orange Business Services
+    url: https://www.orangebusiness.sn
+    location: Dakar, Sénégal
+    overview: Fournisseur mondial de services de télécommunications et d'informatique pour les entreprises
+
   positions:
-  - designation: Analyste en sécurité junior
-    start: Sep 2019
-    end: Mai 2020
-    responsibilities:
-    - Revue quotidienne des logs et triage des alertes dans un SIEM basé sur ELK.
-    - Assistance à l'analyse de phishing et application de politiques de sécurité email via Proofpoint.
-    - Support lors d'engagements de tests d'intrusion avec des tâches de reconnaissance réseau.
-    - Documentation des résultats de sécurité et contribution aux rapports de threat intelligence.
+    - designation: Stagiaire en Cybersécurité
+      start: Octobre 2021
+      end: Décembre 2021
+      responsibilities:
+        - Assistance à la configuration des équipements de sécurité réseau 
+        - Contribution à la mise en œuvre de mesures de sécurité réseau en environnement d'entreprise
+        - Support au déploiement de contrôles de gestion des accès privilégiés pour sécuriser l'accès administratif aux systèmes critiques
+
+- company:
+    name: Université de Sherbrooke
+    location: Sherbrooke, QC, Canada
+    overview: Programme de maîtrise en informatique – Spécialisation en cybersécurité
+
+  positions:
+    - designation: Étudiant à la Maîtrise en Cybersécurité
+      start: 2024
+      end: 2026
+      responsibilities:
+        - Évaluation des vulnérabilités et surveillance de la sécurité en environnement de lab
+        - Simulation d'adversaires à l'aide de scénarios alignés sur MITRE ATT&CK
+        - Analyse de journaux et investigation des activités sur les points de terminaison
+        - Utilisation d'outils de sécurité pour la détection des menaces et l'analyse des incidents
+        - Assistance à la correction et à la révision des travaux académiques
